@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    >
+
+
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:rowCount="2"
+        android:columnCount="2"
+        >
+
+
+        <RelativeLayout
+            android:layout_gravity="left"
+            android:gravity="top"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_row="0"
+            android:layout_column="0"
+
+            android:id="@+id/relax"
+            android:background="@drawable/mood_button_selector"
+            android:clickable="true"
+            >
+
+            <ImageView
+                android:src="@drawable/living"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:id="@+id/imageView2"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:gravity="top"
+            android:layout_gravity="right"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:id="@+id/dinner"
+
+            android:clickable="true"
+            android:background="@drawable/mood_button_selector"
+            >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_centerInParent="true"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:src="@drawable/movie"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_gravity="left"
+            android:gravity="top"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:id="@+id/movie"
+
+            android:clickable="true"
+            android:background="@drawable/mood_button_selector">
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_centerInParent="true"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:src="@drawable/relax"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:gravity="top"
+            android:layout_gravity="right"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:id="@+id/emergency"
+
+            android:clickable="true"
+            android:background="@drawable/mood_button_selector">
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:src="@drawable/dinner"
+                /></RelativeLayout>
+
+
+
+    </GridLayout>
+
+    <RelativeLayout
+
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:id="@+id/exit"
+        android:clickable="true"
+        android:background="@drawable/mood_button_selector"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/exit"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Output"
+        android:id="@+id/moodout"
+
+        />
+
+
+
+</RelativeLayout>
+

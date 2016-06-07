@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ClickHome</string>
+    <string name="title_activity_mood_">Mood Settings</string>
+    <string name="title_activity_device_details">Alarm Settings</string>
+    <string name="title_activity_slave__list">Switches</string>
+    <string name="get_data">Get data</string>
+    <string name="flower_name_placeholder">Slave Device Name</string>
+    <string name="moodactivity">Mood Setting</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="device_name">Device Name</string>
+    <string name="device_id">Device Id</string>
+    <string name="device_details">Device Details</string>
+    <string name="status_display">STATUS DISPLAY</string>
+    <string name="switchto">Switch</string>
+    <string name="id">ID</string>
+    <string name="device_des">DEVICE DESIGNATION</string>
+    <string name="device_chart">DEVICE CHART</string>
+    <string name="device_type">DEVICE TYPE</string>
+    <string name="device_value">DEVICE VALUE</string>
+    <string name="status_result">DEVICE STATUS RESULT</string>
+    <string name="mid">Master Device</string>
+    <string name="sid">Slave Id</string>
+    <string name="type">Device Type</string>
+    <string name="status">Status</string>
+    <string name="value">Value</string>
+    <string name="thetime">Alarm Settings</string>
+    <string name="alarm_status">Alarm Status</string>
+    <string name="img">Image Url</string>
+    <string name="title_activity_slave_list">SlaveList</string>
+
+</resources>
